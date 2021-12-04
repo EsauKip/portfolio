@@ -116,7 +116,6 @@ body {
 
 .About h6 {
     color: white;
-    text-align: center;
     font-size: 25px;
     font-weight: bold;
     font-style: oblique;
@@ -124,11 +123,37 @@ body {
 
 .About ul {
     color: white;
-    text-align: center;
 }
 
 .About h3 {
     text-align: center;
     color: white;
     margin-top: 50px;
+}
+
+.About p {
+    color: white;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.box button {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 230px;
+    margin-left: 230px;
 }
