@@ -165,3 +165,24 @@ body {
     background-size: cover;
     opacity: 0.5;
 }
+
+.contact form {
+    color: white;
+    margin-right: 80px;
+    padding: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.contact h3 {
+    color: white;
+    font-size: 26lx;
+}
+
+.contact ol {
+    color: white;
+}
