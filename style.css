@@ -173,7 +173,7 @@ body {
 }
 
 .down {
-    background-image: url(Images/next.jpg);
+    background-image: url(Images/fin.jpg);
     padding: 300px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,6 +190,13 @@ body {
     color: white;
     font-weight: 200px;
     font-size: 30px;
+}
+
+.down button {
+    background-color: transparent;
+    border: solid 2px #1f203a;
+    color: white;
+    margin: 40px;
 }
 
 .contact form {
