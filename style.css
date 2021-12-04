@@ -186,3 +186,32 @@ body {
 .contact ol {
     color: white;
 }
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.tw {
+    font-size: 30px;
+}
+
+.ig {
+    font-size: 30px;
+}
+
+.mail {
+    font-size: 30px;
+}
+
+.fb {
+    font-size: 30px;
+}
+
+.in {
+    font-size: 30px;
+}
+
+.call {
+    font-size: 30px;
+}
