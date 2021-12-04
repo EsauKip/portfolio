@@ -163,7 +163,19 @@ body {
     padding: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.25;
+}
+
+.down h5 {
+    color: #1f203a;
+    font-size: 45px;
+    font-weight: 200px;
+}
+
+.down p {
+    color: white;
+    font-weight: 200px;
+    font-size: 30px;
 }
 
 .contact form {
