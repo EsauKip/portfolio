@@ -119,6 +119,20 @@ body {
     font-size: 25px;
     font-weight: bold;
     font-style: oblique;
+    margin-left: 250px;
+}
+
+.About ol {
+    color: white;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.try {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 
 .About ul {
