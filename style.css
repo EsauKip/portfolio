@@ -157,3 +157,11 @@ body {
     margin-right: 230px;
     margin-left: 230px;
 }
+
+.down {
+    background-image: url(Images/next.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
