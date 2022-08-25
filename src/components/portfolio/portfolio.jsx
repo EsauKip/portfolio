@@ -1,8 +1,84 @@
 import React from 'react'
 import './portfolio.css'
+import IMG1 from '../../assets/crypto.png'
+import IMG2 from '../../assets/pizza.png'
+import IMG3 from '../../assets/ig.png'
+import IMG4 from '../../assets/merch.png'
+import IMG5 from '../../assets/hood.png'
+import IMG6 from '../../assets/budget.png'
+import IMG7 from '../../assets/quote.png'
 const portfolio = () => {
   return (
-    <div>portfolio</div>
+    <section id="section">
+      <h5>My Recent Work</h5>
+      <h2>Portfolio</h2>
+      <div className="container portfolio__container">
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="" />
+          </div>
+          <h3>Crypto Checker</h3>
+          <a href="https://github.com/EsauKip/crypto-checker.git" className='btn' target='_blank'>GitHub</a>
+          <a href="https://esaukipcrypto-0a498c.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="" />
+          </div>
+          <h3>Instagram clone</h3>
+          <a href="https://github.com/EsauKip/instagramclone.git" className='btn' target='_blank'>GitHub</a>
+          <a href="https://instagram-kip.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt="" />
+          </div>
+          <h3>Pizza Inn</h3>
+          <a href="https://github.com/EsauKip/Pizza-inn.git" className='btn' target='_blank'>GitHub</a>
+          <a href="https://esaukip.github.io/Pizza-inn/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Merchandisers</h3>
+          <a href="https://github.com/EsauKip/crypto-checker.git" className='btn' target='_blank'>GitHub</a>
+          <a href="https://esaukipcrypto-0a498c.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>The Hood</h3>
+          <a href="https://github.com/EsauKip/finder.git" className='btn' target='_blank'>GitHub</a>
+          <a href="https://thehood-kip.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Budgetting App</h3>
+          <a href="https://github.com/EsauKip/Budgetting-app.git" className='btn' target='_blank'>GitHub</a>
+          <a href="https://esaukip.github.io/Budgetting-app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="" />
+          </div>
+          <h3>Blog post</h3>
+          <a href="https://github.com/EsauKip/Blog-post.git" className='btn' target='_blank'>GitHub</a>
+          <a href="https://blog-post-kip.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+        </article>
+        
+      </div>
+    </section>
   )
 }
 
