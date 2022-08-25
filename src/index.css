@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 :root{
-    --colo-bg:#0e0e42;
+    --color-bg:#0e0e42;
     --color-bg-variant:#2c2c6c;
     --color-primary:#1887a8;
     --color-primary-variant:#225c8b;
@@ -30,7 +30,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--colo-bg);
+    background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
     background-image:url(../src/assets/bg-texture.png) ;
