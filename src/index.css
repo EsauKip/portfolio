@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Michroma&family=Poppins:wght@300;400;500;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -42,8 +43,15 @@ body{
 h1,h2,h4,h5,h3{
     font-weight: 500;
 }
+h2{
+     font-family: 'Aboreto', cursive;
+  
+}
 h1{
     font-size: 2.5rem;
+    font-family: 'Michroma', sans-serif;
+    color: var(--color-primary-variant);
+    
 }
 section{
     margin-top: 8rem;
