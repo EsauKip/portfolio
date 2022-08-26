@@ -40,6 +40,7 @@ const services = () => {
           <li>
           <BsCheckAll className='service__list-icon'/>
             <p>Database</p></li>
+            
         </ul>
       </article>
     </div>
