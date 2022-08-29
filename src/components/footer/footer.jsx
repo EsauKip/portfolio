@@ -15,8 +15,8 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://twitter.com/Friendngetich" target="_blank"><FaTwitter/></a>
-        <a href="https://discord.com/channels/@me" target="_blank"><SiDiscord/></a>
+        <a href="https://twitter.com/Friendngetich" ><FaTwitter/></a>
+        <a href="https://discord.com/channels/@me" ><SiDiscord/></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; Esau Kiprono. All rights reserved.</small>

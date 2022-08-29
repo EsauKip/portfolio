@@ -24,14 +24,14 @@ const form = useRef();
           <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>kipronoesau28@gmail.com</h5>
-            <a href="mailto:kipronoesau28@gmail.com" target="_blank">Send The Message</a>
+            <a href="mailto:kipronoesau28@gmail.com" >Send The Message</a>
           </article>
           
           <article className='contact__option'>
           <FaWhatsappSquare className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+254700768455</h5>
-            <a href="https://api.whatsapp.com/send?phone=254700768455" target='_blank'>Send  Message</a>
+            <a href="https://api.whatsapp.com/send?phone=254700768455" >Send  Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
